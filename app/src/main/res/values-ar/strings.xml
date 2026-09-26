@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مواقيت الصلاة</string>
+    <string name="wallpaper_description">خلفية حيّة تعرض مواقيت الصلاة الخمس وعدّاد الصلاة القادمة وبوصلة اتجاه القبلة — تعمل بالكامل بدون إنترنت</string>
+
+    <string-array name="prayer_names">
+        <item>الفجر</item>
+        <item>الظهر</item>
+        <item>العصر</item>
+        <item>المغرب</item>
+        <item>العشاء</item>
+    </string-array>
+
+    <string name="prayer_times">أوقات الصلاة</string>
+    <string name="remaining">الوقت المتبقي لصلاة</string>
+    <string name="qibla">القبلة</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="no_sensor">مستشعر البوصلة غير متوفر</string>
+    <string name="default_city">بورصة، تركيا</string>
+
+    <string name="title_main">مواقيت الصلاة</string>
+    <string name="intro">حدّد موقعك، وبعدها أضف الودجة (Widget) للشاشة الرئيسية: اضغط مطولاً على شاشتك الرئيسية ← Widgets ← مواقيت الصلاة. كل شي بالتطبيق يشتغل بالكامل بدون إنترنت.</string>
+    <string name="btn_locate">تحديد موقعي</string>
+    <string name="btn_set">تعيين كخلفية حيّة</string>
+    <string name="no_location">لم يُحدَّد موقعك بعد — يُستخدم الافتراضي: %s</string>
+    <string name="locating">جاري تحديد موقعك...</string>
+    <string name="fetching">جاري حساب المواقيت...</string>
+    <string name="location_denied">لم تُمنح صلاحية الموقع — سنعرض مواقيت بورصة، تركيا</string>
+    <string name="location_off">خدمة الموقع مغلقة — فعّلها وحاول مرة ثانية</string>
+    <string name="fetch_ok">تم تحديث المواقيت ✓</string>
+    <string name="fetch_fail">حدث خطأ ما</string>
+
+    <string name="section_location">الموقع</string>
+    <string name="section_overview">لمحة اليوم</string>
+    <string name="section_ready_widgets">Widgets جاهزة</string>
+    <string name="add_to_home">إضافة للشاشة الرئيسية</string>
+    <string name="pin_widget_unsupported">مشغّل شاشتك الرئيسية ما بيدعم إضافة الودجات بهالطريقة</string>
+    <string name="widget_kind_classic">الكلاسيكي</string>
+    <string name="widget_kind_full">الكامل</string>
+    <string name="widget_kind_compact">المدمج</string>
+    <string name="widget_kind_circle">الدائري</string>
+    <string name="widget_kind_list">القائمة</string>
+    <string name="widget_kind_minimal">المصغّر</string>
+    <string name="manual_location_hint">ما فيه إنترنت؟ أدخل الإحداثيات يدوياً — كل شي بيستمر يشتغل بدون إنترنت.</string>
+    <string name="manual_location_save">حفظ الموقع اليدوي</string>
+    <string name="field_lat">خط العرض</string>
+    <string name="field_lon">خط الطول</string>
+    <string name="field_city">اسم المدينة (اختياري)</string>
+
+    <string name="section_compass">البوصلة</string>
+    <string name="compass_speed_label">سرعة تحديث البوصلة</string>
+    <string name="speed_realtime">لحظية</string>
+    <string name="speed_fast">سريعة</string>
+    <string name="speed_normal">عادية</string>
+    <string name="speed_slow">كل ثانية</string>
+
+    <string name="section_design">التصميم</string>
+    <string name="design_theme">ثيم الخلفية</string>
+    <string name="theme_night_gold">ذهبي ليلي</string>
+    <string name="theme_deep_teal">تركواز غامق</string>
+    <string name="theme_royal_purple">بنفسجي ملكي</string>
+    <string name="theme_emerald">زمردي</string>
+    <string name="design_compass_shape">شكل البوصلة</string>
+    <string name="shape_classic">كلاسيكي</string>
+    <string name="shape_modern_ring">حلقة عصرية</string>
+    <string name="shape_minimal_arrow">سهم بسيط</string>
+    <string name="shape_arc_gauge">قوس مقياس</string>
+    <string name="design_counter_style">شكل العدّاد</string>
+    <string name="counter_digital_card">بطاقة</string>
+    <string name="counter_ring_progress">حلقة تقدّم</string>
+    <string name="counter_plain_text">نص بسيط</string>
+    <string name="counter_pill">كبسولة</string>
+    <string name="design_font">الخط</string>
+    <string name="font_default">افتراضي</string>
+    <string name="font_serif">مزخرف</string>
+    <string name="font_monospace">أحادي المسافة</string>
+    <string name="font_condensed">مضغوط</string>
+
+    <string name="section_calc">طريقة الحساب</string>
+    <string name="calc_method_label">طريقة حساب أوقات الصلاة</string>
+    <string name="method_diyanet">ديانت (تركيا)</string>
+    <string name="method_mwl">رابطة العالم الإسلامي</string>
+    <string name="method_isna">ISNA (أمريكا الشمالية)</string>
+    <string name="method_egypt">الهيئة المصرية</string>
+    <string name="method_karachi">كراتشي</string>
+    <string name="method_makkah">أم القرى (مكة)</string>
+    <string name="asr_method_label">حساب العصر</string>
+    <string name="asr_standard">قياسي (شافعي/مالكي/حنبلي)</string>
+    <string name="asr_hanafi">حنفي</string>
+
+    <string name="section_adhan">إشعار الأذان</string>
+    <string name="adhan_notif_toggle">تنبيهي عند دخول وقت الصلاة</string>
+    <string name="adhan_vibrate_toggle">اهتزاز</string>
+    <string name="adhan_ringtone_toggle">تشغيل رنة</string>
+    <string name="adhan_pick_ringtone">اختيار الرنة</string>
+    <string name="adhan_no_music_note">بدون موسيقى إطلاقاً — اختر أي نغمة نظام إشعار أو منبّه. مطفأة افتراضياً.</string>
+    <string name="adhan_persistent_toggle">استمرار المنبّه حتى أوقفه بنفسي</string>
+    <string name="adhan_persistent_note">عند التفعيل، يستمر المنبّه بالرنين والاهتزاز ولا ينطفي تلقائياً أبداً — فقط أنت تقدر توقفه.</string>
+    <string name="reminder_label">تذكير مبكر (إشعار هادئ بدون رنة)</string>
+    <string name="reminder_off">مطفأ</string>
+    <string name="reminder_minutes_fmt">%d د قبل الأذان</string>
+    <string name="reminder_title">اقترب وقت %s</string>
+    <string name="reminder_body">تبقّى %d دقيقة</string>
+    <string name="adhan_title">حان وقت %s</string>
+    <string name="adhan_body">اضغط لفتح التطبيق</string>
+    <string name="channel_adhan">إشعارات الأذان</string>
+    <string name="channel_adhan_silent">إشعارات الأذان (صامتة)</string>
+    <string name="channel_adhan_alarm">منبّه الأذان</string>
+    <string name="alarm_ongoing_body">منبّه الصلاة يرن الآن</string>
+    <string name="alarm_stop">إيقاف</string>
+    <string name="alarm_time_for_prayer">حان وقت</string>
+
+    <string name="section_app_look">مظهر التطبيق</string>
+    <string name="app_look_decorative_toggle">فقاعات ضوئية بالخلفية</string>
+    <string name="app_look_decorative_note">أطفئها لمظهر أبسط وأنظف بشاشة الإعدادات.</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="go_back">رجوع</string>
+    <string name="design_menu_title">تصميم الودجات</string>
+
+    <string name="offline_note">كل ما سبق يعمل بالكامل بدون إنترنت — لا حاجة لأي اتصال بالشبكة.</string>
+
+    <string name="widget_classic_label">مواقيت الصلاة — كلاسيكي</string>
+    <string name="widget_full_label">مواقيت الصلاة — كامل</string>
+    <string name="widget_compact_label">مواقيت الصلاة — مصغّر</string>
+    <string name="widget_circle_label">مواقيت الصلاة — بوصلة</string>
+    <string name="widget_list_label">مواقيت الصلاة — قائمة</string>
+    <string name="widget_minimal_label">مواقيت الصلاة — أدنى حد</string>
+    <string name="widget_custom_label">مواقيت الصلاة — تصميمي</string>
+    <string name="custom_editor_title">تصميم حر</string>
+    <string name="custom_editor_hint">اختر خلفية وحجم، بعدين ضيف عناصر واسحبها لأي مكان بدك</string>
+    <string name="custom_editor_bg">الخلفية</string>
+    <string name="custom_editor_size">حجم الودجة</string>
+    <string name="custom_editor_elements">المعاينة — اضغط واسحب أي عنصر</string>
+    <string name="custom_editor_drag_hint">اضغط على العنصر لتحديده، واسحبه لتغيير مكانه</string>
+    <string name="custom_editor_save">حفظ وإضافة للشاشة الرئيسية</string>
+    <string name="el_times">مواقيت الصلاة</string>
+    <string name="el_countdown">العدّاد</string>
+    <string name="el_compass">البوصلة</string>
+    <string name="el_city">اسم المدينة</string>
+    <string name="el_remove_selected">حذف العنصر المحدد</string>
+
+    <string name="open_widget_design">صمّم الودجات</string>
+    <string name="open_custom_editor">تصميم حر بالسحب</string>
+    <string name="design_title">تصميم الودجة</string>
+    <string name="cat_bg">الخلفية</string>
+    <string name="cat_rows">المواقيت</string>
+    <string name="cat_counter">التوقيت</string>
+    <string name="cat_font">الخط</string>
+    <string name="cat_compass">البوصلة</string>
+    <string name="bg_custom_photo">صورة</string>
+    <string name="bg_flat_colors_label">ألوان جاهزة</string>
+    <string name="theme_crimson_dusk">أحمر غروبي</string>
+    <string name="theme_ocean_blue">أزرق محيطي</string>
+    <string name="theme_rose_quartz">وردي فاتح</string>
+    <string name="row_card">بطاقة</string>
+    <string name="row_divided">مقسّمة بخط</string>
+    <string name="row_compact">مضغوطة</string>
+    <string name="row_bordered">محدّدة بإطار</string>
+    <string name="row_minimal">بسيطة</string>
+    <string name="counter_outline">إطار فقط</string>
+    <string name="font_rounded">مدوّر</string>
+    <string name="shape_triangle_pointer">مثلث</string>
+    <string name="design_code_label">كود تصميمك — شاركه ليقدر غيرك يستخدم نفس التصميم</string>
+    <string name="design_code_photo_note">ملاحظة: خلفية الصورة المخصّصة تبقى على جهازك فقط وما تنحفظ بالكود.</string>
+    <string name="design_code_apply_label">عندك كود؟ أدخله هون</string>
+    <string name="copy">نسخ</string>
+    <string name="copied">تم نسخ الكود</string>
+    <string name="apply">تطبيق</string>
+    <string name="design_code_applied">تم تطبيق التصميم ✓</string>
+    <string name="design_code_invalid">الكود غير صحيح</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prayer Times</string>
+    <string name="wallpaper_description">A live wallpaper showing the five daily prayer times, a live countdown, and a Qibla compass — fully offline.</string>
+
+    <string-array name="prayer_names">
+        <item>Fajr</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+
+    <string name="prayer_times">Prayer Times</string>
+    <string name="remaining">Time remaining until</string>
+    <string name="qibla">Qibla</string>
+    <string name="loading">Loading…</string>
+    <string name="no_sensor">Compass sensor not available</string>
+    <string name="default_city">Bursa, Turkey</string>
+
+    <string name="title_main">Prayer Times</string>
+    <string name="intro">Set your location, then add the widget to your home screen: long-press your home screen → Widgets → Prayer Times. Everything works fully offline.</string>
+    <string name="btn_locate">Detect my location</string>
+    <string name="btn_set">Set as live wallpaper</string>
+    <string name="no_location">Location not set yet — using default: %s</string>
+    <string name="locating">Detecting your location…</string>
+    <string name="fetching">Calculating prayer times…</string>
+    <string name="location_denied">Location permission not granted — showing Bursa, Turkey</string>
+    <string name="location_off">Location services are off — enable them and try again</string>
+    <string name="fetch_ok">Prayer times updated ✓</string>
+    <string name="fetch_fail">Something went wrong</string>
+
+    <string name="section_location">Location</string>
+    <string name="section_overview">Today at a glance</string>
+    <string name="section_ready_widgets">Ready-made widgets</string>
+    <string name="add_to_home">Add to home screen</string>
+    <string name="pin_widget_unsupported">Your home screen launcher doesn\'t support adding widgets this way</string>
+    <string name="widget_kind_classic">Classic</string>
+    <string name="widget_kind_full">Full</string>
+    <string name="widget_kind_compact">Compact</string>
+    <string name="widget_kind_circle">Circle</string>
+    <string name="widget_kind_list">List</string>
+    <string name="widget_kind_minimal">Minimal</string>
+    <string name="manual_location_hint">No internet? Enter coordinates manually — everything still works offline.</string>
+    <string name="manual_location_save">Save manual location</string>
+    <string name="field_lat">Latitude</string>
+    <string name="field_lon">Longitude</string>
+    <string name="field_city">City name (optional)</string>
+
+    <string name="section_compass">Compass</string>
+    <string name="compass_speed_label">Compass update speed</string>
+    <string name="speed_realtime">Real-time</string>
+    <string name="speed_fast">Fast</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_slow">Every second</string>
+
+    <string name="section_design">Design</string>
+    <string name="design_theme">Background theme</string>
+    <string name="theme_night_gold">Night Gold</string>
+    <string name="theme_deep_teal">Deep Teal</string>
+    <string name="theme_royal_purple">Royal Purple</string>
+    <string name="theme_emerald">Emerald</string>
+    <string name="design_compass_shape">Compass shape</string>
+    <string name="shape_classic">Classic</string>
+    <string name="shape_modern_ring">Modern Ring</string>
+    <string name="shape_minimal_arrow">Minimal Arrow</string>
+    <string name="shape_arc_gauge">Arc Gauge</string>
+    <string name="design_counter_style">Countdown style</string>
+    <string name="counter_digital_card">Card</string>
+    <string name="counter_ring_progress">Ring</string>
+    <string name="counter_plain_text">Plain</string>
+    <string name="counter_pill">Pill</string>
+    <string name="design_font">Font</string>
+    <string name="font_default">Default</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="font_condensed">Condensed</string>
+
+    <string name="section_calc">Calculation method</string>
+    <string name="calc_method_label">Prayer time calculation method</string>
+    <string name="method_diyanet">Diyanet (Turkey)</string>
+    <string name="method_mwl">Muslim World League</string>
+    <string name="method_isna">ISNA (North America)</string>
+    <string name="method_egypt">Egyptian Authority</string>
+    <string name="method_karachi">Karachi</string>
+    <string name="method_makkah">Umm al-Qura (Makkah)</string>
+    <string name="asr_method_label">Asr calculation</string>
+    <string name="asr_standard">Standard (Shafi/Maliki/Hanbali)</string>
+    <string name="asr_hanafi">Hanafi</string>
+
+    <string name="section_adhan">Adhan notification</string>
+    <string name="adhan_notif_toggle">Notify me at prayer time</string>
+    <string name="adhan_vibrate_toggle">Vibrate</string>
+    <string name="adhan_ringtone_toggle">Play a sound</string>
+    <string name="adhan_pick_ringtone">Choose sound</string>
+    <string name="adhan_no_music_note">No music — choose any system notification/alarm sound. Off by default.</string>
+    <string name="adhan_persistent_toggle">Keep ringing until I stop it</string>
+    <string name="adhan_persistent_note">When on, the alarm keeps ringing and vibrating and will not stop on its own — only you can stop it.</string>
+    <string name="reminder_label">Early reminder (quiet notification)</string>
+    <string name="reminder_off">Off</string>
+    <string name="reminder_minutes_fmt">%d min before</string>
+    <string name="reminder_title">%s soon</string>
+    <string name="reminder_body">%d minutes remaining</string>
+    <string name="adhan_title">Time for %s</string>
+    <string name="adhan_body">Tap to open the app</string>
+    <string name="channel_adhan">Adhan notifications</string>
+    <string name="channel_adhan_silent">Adhan notifications (silent)</string>
+    <string name="channel_adhan_alarm">Adhan alarm</string>
+    <string name="alarm_ongoing_body">Prayer alarm is ringing</string>
+    <string name="alarm_stop">Stop</string>
+    <string name="alarm_time_for_prayer">It\'s time for</string>
+
+    <string name="section_app_look">App look</string>
+    <string name="app_look_decorative_toggle">Soft glow background</string>
+    <string name="app_look_decorative_note">Turn off for a flatter, simpler settings screen.</string>
+    <string name="settings_title">Settings</string>
+    <string name="open_settings">Open settings</string>
+    <string name="go_back">Back</string>
+    <string name="design_menu_title">Design widgets</string>
+
+    <string name="offline_note">Everything above works fully offline — no internet connection required.</string>
+
+    <string name="widget_classic_label">Prayer Times — Classic</string>
+    <string name="widget_full_label">Prayer Times — Full</string>
+    <string name="widget_compact_label">Prayer Times — Compact</string>
+    <string name="widget_circle_label">Prayer Times — Compass</string>
+    <string name="widget_list_label">Prayer Times — List</string>
+    <string name="widget_minimal_label">Prayer Times — Minimal</string>
+    <string name="widget_custom_label">Prayer Times — My Design</string>
+    <string name="custom_editor_title">Free design</string>
+    <string name="custom_editor_hint">Pick a background, a size, then add and drag elements anywhere</string>
+    <string name="custom_editor_bg">Background</string>
+    <string name="custom_editor_size">Widget size</string>
+    <string name="custom_editor_elements">Preview — tap and drag any element</string>
+    <string name="custom_editor_drag_hint">Tap an element to select it, drag to reposition</string>
+    <string name="custom_editor_save">Save and add to home screen</string>
+    <string name="el_times">Prayer times</string>
+    <string name="el_countdown">Countdown</string>
+    <string name="el_compass">Compass</string>
+    <string name="el_city">City name</string>
+    <string name="el_remove_selected">Remove selected element</string>
+
+    <string name="open_widget_design">Design your widgets</string>
+    <string name="open_custom_editor">Free drag-and-drop design</string>
+    <string name="design_title">Widget Design</string>
+    <string name="cat_bg">Background</string>
+    <string name="cat_rows">Prayer times</string>
+    <string name="cat_counter">Countdown</string>
+    <string name="cat_font">Font</string>
+    <string name="cat_compass">Compass</string>
+    <string name="bg_custom_photo">Photo</string>
+    <string name="bg_flat_colors_label">Solid colors</string>
+    <string name="theme_crimson_dusk">Crimson Dusk</string>
+    <string name="theme_ocean_blue">Ocean Blue</string>
+    <string name="theme_rose_quartz">Rose Quartz</string>
+    <string name="row_card">Card</string>
+    <string name="row_divided">Divided</string>
+    <string name="row_compact">Compact</string>
+    <string name="row_bordered">Bordered</string>
+    <string name="row_minimal">Minimal</string>
+    <string name="counter_outline">Outline</string>
+    <string name="font_rounded">Rounded</string>
+    <string name="shape_triangle_pointer">Triangle</string>
+    <string name="design_code_label">Your design code — share it so others can use the same design</string>
+    <string name="design_code_photo_note">Note: a custom photo background stays on your device only and isn\'t included in the code.</string>
+    <string name="design_code_apply_label">Have a code? Enter it here</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Code copied</string>
+    <string name="apply">Apply</string>
+    <string name="design_code_applied">Design applied ✓</string>
+    <string name="design_code_invalid">Invalid code</string>
+</resources>
